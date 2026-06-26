@@ -87,7 +87,7 @@ SAMS connects to a local MySQL instance using:
 ```bash
    mvn javafx:run
 
-**## Default Login Credentials**
+## Default Login Credentials
 
 Use the following credentials to access the system:
 

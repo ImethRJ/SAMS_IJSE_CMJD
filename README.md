@@ -75,17 +75,20 @@ SAMS connects to a local MySQL instance using:
 
 ## Setup Instructions
 
-1. Ensure MySQL Server is running on your machine on port `3306` with username `root` and password `ijse`.
-2. Open a terminal inside the project directory:
+1. Ensure MySQL Server is running on your machine on port `3306` with username `root` and password `abcd` (matching the configuration in [DBConnection.java](file:///c:/Users/imeth/Desktop/sams/src/main/java/com/ijse/sams/db/DBConnection.java)).
+2. Import the database schema from the [database.sql](file:///c:/Users/imeth/Desktop/sams/database.sql) file.
+3. Open a terminal inside the project directory:
    ```bash
    cd C:/Users/imeth/Desktop/sams
-3. Compile and build the Maven project:
-```bash
+   ```
+4. Compile and build the Maven project:
+   ```bash
    mvn clean compile
    ```
-4. Start the application:
-```bash
+5. Start the application:
+   ```bash
    mvn javafx:run
+   ```
 
 ## Default Login Credentials
 

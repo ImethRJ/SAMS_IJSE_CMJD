@@ -14,9 +14,9 @@ A high-performance, premium JavaFX desktop application designed to streamline st
 - **Course & Subject Registry:** Create courses and dynamically add associated subjects.
 - **Lecturer Scheduling:** Assign lecturers to specific subjects and schedule classes indicating date, time slot, and course.
 - **Reporting Engine:**
-  - **Detailed Logs:** Shows a granular attendance sheet filterable by student, course, subject, and date range[cite: 1].
-  - **Summary Metrics:** Calculates total classes, count of present/absent/late, and attendance percentage per student[cite: 1].
-- **Aesthetic UI Design:** Polished dark sidebar navigation, modern stat cards, drop shadows, responsive tables, and elegant alignments[cite: 1].
+  - **Detailed Logs:** Shows a granular attendance sheet filterable by student, course, subject, and date range.
+  - **Summary Metrics:** Calculates total classes, count of present/absent/late, and attendance percentage per student.
+- **Aesthetic UI Design:** Polished dark sidebar navigation, modern stat cards, drop shadows, responsive tables, and elegant alignments.
 
 ---
 
@@ -28,7 +28,7 @@ A high-performance, premium JavaFX desktop application designed to streamline st
 </p>
 
 ### 2. Admin Portal Panels
-The Admin interface provides full management control over institution registries and scheduling workflows[cite: 1].
+The Admin interface provides full management control over institution registries and scheduling workflows.
 
 | Dashboard Overview | Course & Subject Management |
 | :---: | :---: |
@@ -43,7 +43,7 @@ The Admin interface provides full management control over institution registries
 | <img src="Admin_Schedules.png" width="400"> | <img src="Admin_Reports.png" width="400"> |
 
 ### 3. Lecturer Portal Panels
-A streamlined interface tailored for educators to review schedules and efficiently log attendance data[cite: 1].
+A streamlined interface tailored for educators to review schedules and efficiently log attendance data.
 
 | Assigned Class Schedules | Student Roster & Attendance Marking |
 | :---: | :---: |
@@ -58,24 +58,24 @@ A streamlined interface tailored for educators to review schedules and efficient
 
 ## Technologies Used
 
-- **Development Kit:** Java SE 21+[cite: 1]
-- **Database Engine:** MySQL Server 8.0+ / 9.0+[cite: 1]
-- **UI Platform:** JavaFX 21 (openjfx)[cite: 1]
-- **Data Access:** JDBC with Singleton Connection Pool and Custom SQL Execution Wrappers[cite: 1]
-- **Build Tool:** Apache Maven[cite: 1]
+- **Development Kit:** Java SE 21+
+- **Database Engine:** MySQL Server 8.0+ / 9.0+
+- **UI Platform:** JavaFX 21 (openjfx)
+- **Data Access:** JDBC with Singleton Connection Pool and Custom SQL Execution Wrappers
+- **Build Tool:** Apache Maven
 
 ## Database Connection Settings
 
 SAMS connects to a local MySQL instance using:
-- **Database Name:** `sams`[cite: 1]
-- **Host / Port:** `localhost:3306`[cite: 1]
-- **Username:** `root`[cite: 1]
-- **Password:** `abcd` Use Yours[cite: 1]
-- **SSL / Public Key:** Disabled / Enabled respectively for hassle-free connectivity[cite: 1]
+- **Database Name:** `sams`
+- **Host / Port:** `localhost:3306`
+- **Username:** `root`
+- **Password:** `abcd` Use Yours
+- **SSL / Public Key:** Disabled / Enabled respectively for hassle-free connectivity
 
 ## Setup Instructions
 
-1. Ensure MySQL Server is running on your machine on port `3306` with username `root` and password `ijse`[cite: 1].
-2. Open a terminal inside the project directory[cite: 1]:
+1. Ensure MySQL Server is running on your machine on port `3306` with username `root` and password `ijse`.
+2. Open a terminal inside the project directory:
    ```bash
    cd C:/Users/imeth/Desktop/sams

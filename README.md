@@ -79,3 +79,11 @@ SAMS connects to a local MySQL instance using:
 2. Open a terminal inside the project directory:
    ```bash
    cd C:/Users/imeth/Desktop/sams
+3. Compile and build the Maven project:
+```bash
+   mvn clean compile
+   ```
+4. Start the application:
+```bash
+   mvn javafx:run
+
